@@ -16,6 +16,7 @@ gemini skills install https://github.com/saeidha/ios-swift-style-skill.git
 ## How to Use
 
 Once installed, simply ask Gemini CLI to review or refactor a Swift file:
-`gemini "Refactor ViewController.swift to match our team's code style"`
 
+```bash
+gemini "Refactor ViewController.swift to match our team's code style"
 ```
