@@ -1,5 +1,7 @@
-# Name: iOS Swift Strict Style Guide
-# Description: Enforces strict Swift coding style, MARK organizations, dependency injection rules, and architectural conventions for the iOS team.
+---
+name: iOS Swift Strict Style Guide
+description: Enforces strict Swift coding style, MARK organizations, dependency injection rules, and architectural conventions for the iOS team.
+---
 
 ## Instructions
 As an AI agent, whenever you generate, refactor, or review Swift code, you MUST strictly adhere to the following guidelines:
@@ -30,6 +32,7 @@ Every class must explicitly include a `deinit` block that prints its name with a
 deinit {
     print("🗑 ClassName")
 }
+
 ```
 
 ### 5. Private Methods Order
